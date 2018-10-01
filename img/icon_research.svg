@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_research</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-5" transform="translate(-219.000000, -119.000000)" fill-rule="nonzero">
+            <g id="icon_research" transform="translate(219.000000, 119.000000)">
+                <path d="M10,48 L3,48 C1.34314575,48 2.02906125e-16,46.6568542 0,45 L0,9 C5.66374055e-05,8.73480519 0.105450625,8.48049273 0.293,8.293 L8.293,0.293 C8.48049273,0.105450625 8.73480519,5.66374055e-05 9,-1.11022302e-16 L33,-1.11022302e-16 C34.6568542,1.01453063e-16 36,1.34314575 36,3 L36,10 L34,10 L34,3 C34,2.44771525 33.5522847,2 33,2 L9.414,2 L2,9.414 L2,45 C2,45.5522847 2.44771525,46 3,46 L10,46 L10,48 Z" id="Shape" fill="#000000"></path>
+                <path d="M7,10 L1,10 L1,8 L7,8 C7.55228475,8 8,7.55228475 8,7 L8,1 L10,1 L10,7 C10,8.65685425 8.65685425,10 7,10 Z" id="Shape" fill="#000000"></path>
+                <path d="M9,44 L7,44 C5.34314575,44 4,42.6568542 4,41 L4,39 L6,39 L6,41 C6,41.5522847 6.44771525,42 7,42 L9,42 L9,44 Z" id="Shape" fill="#000000"></path>
+                <rect id="Rectangle-path" fill="#000000" x="4" y="35" width="2" height="2"></rect>
+                <path d="M45,48 L15,48 C13.3431458,48 12,46.6568542 12,45 L12,15 C12,13.3431458 13.3431458,12 15,12 L45,12 C46.6568542,12 48,13.3431458 48,15 L48,45 C48,46.6568542 46.6568542,48 45,48 Z M15,14 C14.4477153,14 14,14.4477153 14,15 L14,45 C14,45.5522847 14.4477153,46 15,46 L45,46 C45.5522847,46 46,45.5522847 46,45 L46,15 C46,14.4477153 45.5522847,14 45,14 L15,14 Z" id="Shape" fill="#000000"></path>
+                <rect id="Rectangle-path" fill="#000000" x="16" y="16" width="2" height="2"></rect>
+                <rect id="Rectangle-path" fill="#000000" x="20" y="16" width="2" height="2"></rect>
+                <rect id="Rectangle-path" fill="#000000" x="24" y="16" width="2" height="2"></rect>
+                <rect id="Rectangle-path" fill="#000000" x="42" y="16" width="2" height="2"></rect>
+                <rect id="Rectangle-path" fill="#000000" x="13" y="20" width="34" height="2"></rect>
+                <path d="M30,42 C25.0294373,42 21,37.9705627 21,33 C21,28.0294373 25.0294373,24 30,24 C34.9705627,24 39,28.0294373 39,33 C38.9944889,37.9682782 34.9682782,41.9944889 30,42 Z M30,26 C26.1340068,26 23,29.1340068 23,33 C23,36.8659932 26.1340068,40 30,40 C33.8659932,40 37,36.8659932 37,33 C36.9950416,29.1360624 33.8639376,26.0049584 30,26 Z" id="Shape" fill="#009FDA"></path>
+                <rect id="Rectangle-path" fill="#009FDA" transform="translate(38.499189, 41.499967) rotate(-45.000000) translate(-38.499189, -41.499967) " x="37.4991889" y="37.9644668" width="2" height="7.071"></rect>
+                <rect id="Rectangle-path" fill="#000000" x="16" y="24" width="4" height="2"></rect>
+                <rect id="Rectangle-path" fill="#000000" x="16" y="28" width="4" height="2"></rect>
+                <rect id="Rectangle-path" fill="#000000" x="40" y="24" width="4" height="2"></rect>
+                <rect id="Rectangle-path" fill="#000000" x="40" y="28" width="4" height="2"></rect>
+                <path d="M35,33 L33,33 C33,31.3431458 31.6568542,30 30,30 L30,28 C32.7600532,28.0033061 34.9966939,30.2399468 35,33 Z" id="Shape" fill="#009FDA"></path>
+            </g>
+        </g>
+    </g>
+</svg>
