@@ -94,7 +94,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .content a {
-    color: red;
+    color: #C21D1D;
     text-decoration: none;
     font-weight: 550;
 }
@@ -188,8 +188,8 @@ h5, h6          { font-weight: bolder }
     }
 
 
-    header ul.social li a.google,
-    header ul.social li a.google:hover{
+    header ul.social li a.linkedin,
+    header ul.social li a.linkedin:hover{
         background-position: -31px 0;
     }
 
@@ -203,8 +203,8 @@ h5, h6          { font-weight: bolder }
         background-position: -93px 0;
     }
 
-    header ul.social li a.dribble,
-    header ul.social li a.dribble:hover{
+    header ul.social li a.medium,
+    header ul.social li a.medium:hover{
         background-position: -124px 0;
     }
 
@@ -861,7 +861,11 @@ h5, h6          { font-weight: bolder }
     margin-bottom: 40px;
 }
 
+/* external link*/
 
+.external_link:hover {
+
+}
 
 
 
