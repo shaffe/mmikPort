@@ -358,6 +358,65 @@ h5, h6          { font-weight: bolder }
     background-position: 50% 50%;
 }
 
+.danskehero_district {
+    background: url('../img/danskehero_district.png') no-repeat;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50% 50%;
+}
+
+.danskehero_ficc {
+    background: url('../img/danskehero_ficc.png') no-repeat;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50% 50%;
+}
+
+.vinghero_all {
+     background: url('../img/vinghero_all.png') no-repeat;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50% 50%;
+}
+
+.vinghero_checkin {
+     background: url('../img/vinghero_checkin.png') no-repeat;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50% 50%;
+}
+.primekeyhero {
+     background: url('../img/primekeyhero.png') no-repeat;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50% 50%;
+}
+.rikshero {
+     background: url('../img/rikshero.png') no-repeat;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50% 50%;
+}
+.pachero {
+     background: url('../img/pachero.png') no-repeat;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50% 50%;
+}
 .work_nav{
     display: block;
     width: 100%;
