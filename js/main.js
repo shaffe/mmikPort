@@ -124,12 +124,6 @@ function obfuscatorEmail () {
 
 }
 
-
-// Email obfuscator script 2.1 by Tim Williams, University of Arizona
-// Random encryption key feature coded by Andrew Moulden
-// This code is freeware provided these four comment lines remain intact
-// A wizard to generate this code is at http://www.jottings.com/obfuscator/
-
 function obfuscatorPhoneNum () {
  coded = "+Z8 fF FZb bB bM"
   key = "gfWkZRlEc53NCTFYuaQmpOJGtDV6sveSowdh9iy21zn8AxL7qH4rBPXMjKUb0I"
@@ -147,6 +141,35 @@ function obfuscatorPhoneNum () {
   }
 document.write(link)
 };
+
+// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+// Random encryption key feature coded by Andrew Moulden
+// This code is freeware provided these four comment lines remain intact
+// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+
+function obfuscatorEmail2 () {
+
+    var email = "email"
+
+    coded = "vrFFE@7hZUI7UB8FUm.mE7"
+    key = "N0bAjJSQ7eVT9LlRUItBovyKuDcMPqgrY512FGpa6HExws83m4zdWZfCinOkXh"
+    shift=coded.length
+    link=""
+    for (i=0; i<coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {     
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+    }
+    document.write("<a href='mailto:"+link+"'>"+email+"</a>")
+
+}
+
+
 
 
 
