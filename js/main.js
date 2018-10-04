@@ -171,11 +171,25 @@ function obfuscatorEmail2 () {
 
 
 
+function obfuscatorEmail3 () {
 
+    coded = "vv9uym9E@4y5m44u.E4v"
+      key = "c7LhVfl0sA2POyiqIBwQE6gHjamDX13tWU9kCbzNpoY8RFvTZnJ5rGMuedxKS4"
+      shift=coded.length
+      link=""
+      for (i=0; i<coded.length; i++) {
+        if (key.indexOf(coded.charAt(i))==-1) {
+          ltr = coded.charAt(i)
+          link += (ltr)
+        }
+        else {     
+          ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+          link += (key.charAt(ltr))
+        }
+      }
+    document.write("<a href='mailto:"+link+"'>"+link+"</a>")
 
-
-
-
+}
 
 
 

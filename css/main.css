@@ -101,7 +101,7 @@ h5, h6          { font-weight: bolder }
 
 .content a {
     color: #1D6EA9;
-    text-decoration: none;
+    text-decoration: underline #1D6EA9;
     font-weight: 600;
 }
 
@@ -748,6 +748,7 @@ h5, h6          { font-weight: bolder }
 .roles {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .roles > div {
@@ -756,23 +757,11 @@ h5, h6          { font-weight: bolder }
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
-    padding:;
     margin: 30px 0 0 15px;
 }
 
-@media screen and (max-width: 450px) {
-    .roles > div {
-        width: 100%;
-    }
-}
-
-.roles div > * {
-    margin: 0;
-    padding: 0;
-}
-
-.roles div > img {
-    margin-bottom: 15px;
+.roles p {
+    margin-top: 10px;
 }
 
 /*image fadein*/
@@ -793,6 +782,7 @@ h5, h6          { font-weight: bolder }
   -o-transition: all 1s ease;
   align-self: center;
   margin-top: 20px;
+  max-width: 800px;
 }
 
 .image_iphone {
@@ -895,11 +885,12 @@ h5, h6          { font-weight: bolder }
     color: #444;
     font-weight: normal;
     font-weight: 'Roboto-Light';
+    text-decoration: none;
 }
 
 
 .download_resume a:hover {
-    color: #969595;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.7);
 }
 
 
