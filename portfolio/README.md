@@ -1,2 +1,0 @@
-# mmikPort
-UX Portfolio
